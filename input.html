@@ -11,11 +11,11 @@
     <form action="">
       <p>
         <label for="username"> Type username </label>
-        <input id="username" type="text" />
+        <input id disabled="username" type="text" />
       </p>
       <p>
         <label for="password"> Type userpassword </label>
-        <input id="password" type="password" />
+        <input id disabled="password" type="password" />
       </p>
       <p>
         <label for="username"> Type username </label>
@@ -25,6 +25,46 @@
         <label for="password"> Type userpassword </label>
         <input placeholder="Typepassword" id="password" type="password" />
       </p>
+      <fieldset>
+        <legend>User secret data</legend>
+        <p>
+          <label for="secondname"> Type Secondname </label>
+          <input placeholder="Type secondname" id="secondname" type="text" />
+        </p>
+        <p>
+          <label for="secretcode"> Type Secretcode</label>
+          <input placeholder="Typepassword" id="secretcode" type="password" />
+        </p>
+      </fieldset>
     </form>
+    <p>
+      <textarea cols="20" rows="10"></textarea>
+    </p>
+    <p>
+      <label for="Roma"> Roma </label>
+      <input type="checkbox" id="Roma" value="Citta Roma" />
+    </p>
+    <p>
+      <label for="Napoli"> Napoli </label>
+      <input type="checkbox" id="Napoli" value="Citta Napoli" />
+    </p>
+    <p>
+      <label for="Sorrento"> Sorrento </label>
+      <input type="checkbox" id="Sorrento" value="Citta Sorrento" />
+    </p>
+    <p>
+      <label for="male">Male</label>
+      <input type="radio" name="genter" value="male" />
+    </p>
+    <p>
+      <label for="female">Female</label>
+      <input type="radio" name="genter" value="female" />
+    </p>
+    <select>
+      <option value="front-end-scill-html">Html</option>
+      <option value="front-end-scill-css">Css</option>
+      <option value="front-end-scill-JS">JS</option>
+      <option value="back-end-scill-php">PHP</option>
+    </select>
   </body>
 </html>
