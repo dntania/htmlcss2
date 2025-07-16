@@ -108,6 +108,37 @@
       <p>
         <input type="image" src="foto.JPG" alt="moe фото" width="150" />
       </p>
+      <p>
+        <label for="mufile">Выбрать файл</label>
+        <input type="file" id="mufile" name="mufile" />
+        <input type="submit" value="Загрузить файл" />
+      </p>
+      <p>
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" />
+        <input type="hidden" id="custId" name="custId" value="1234" />
+        <input type="submit" value="submit" />
+      </p>
+      <p>
+        <label for="bdaymonth"> День рождения /месяц и год</label>
+        <input type="month" id="bdaymonth" name="bdaymonth" />
+        <input type="submit" value="Отправить на рассмотрение" />
+      </p>
+      <p>
+        <label for="Quantity">Количество от 5 до 12</label>
+        <input type="Quantity" id="Quantity" name="Quantity" min="5" max="12" />
+        <input type="submit" value="Submit" />
+      </p>
+      <p>
+        <label for="vol">Громкость от 0 до 50</label>
+        <input type="range" id="vol" name="vol" min="0" max="50" />
+      </p>
+      <p>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch" />
+        <input type="submit" value="Submit" />
+      </p>
+      <p></p>
     </form>
     <br />
   </body>
