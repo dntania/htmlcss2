@@ -121,12 +121,14 @@
       </p>
       <p>
         <label for="bdaymonth"> День рождения /месяц и год</label>
-        <input type="month" id="bdaymonth" name="bdaymonth" />
+        <input type="month" id="bdaymonth" name="bdaymonth" /> <br />
+        <br />
         <input type="submit" value="Отправить на рассмотрение" />
       </p>
       <p>
         <label for="Quantity">Количество от 5 до 12</label>
         <input type="Quantity" id="Quantity" name="Quantity" min="5" max="12" />
+        <br />
         <input type="submit" value="Submit" />
       </p>
       <p>
@@ -135,10 +137,40 @@
       </p>
       <p>
         <label for="gsearch">Search Google:</label>
-        <input type="search" id="gsearch" name="gsearch" />
+        <input type="search" id="gsearch" name="gsearch" /> <br />
+        <br />
         <input type="submit" value="Submit" />
       </p>
-      <p></p>
+      <p>
+        <label for="phone">Введите номер телефона:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="123-45-678"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          required
+        />
+        <br />
+        <br />
+        <small>Format 123-45-678</small>
+        <input type="submit" value="Отправить" />
+      </p>
+      <p>
+        <label for="appt">Выбрать время</label>
+        <input type="time" id="appt" name="appt" />
+        <input type="submit" value="Submit" />
+      </p>
+      <p>
+        <label for="homepage">Добавить домашнюю страницу</label>
+        <input type="url" id="homepage" name="homepage" />
+        <input type="submit" value="Submit" />
+      </p>
+      <p>
+        <label for="week">Выбрать неделю</label>
+        <input type="week" id="week" name="week" />
+        <input type="submit" value="Отправить" />
+      </p>
     </form>
     <br />
   </body>
