@@ -1,0 +1,23 @@
+div .bravo {
+  background-color: navy;
+  color: beige;
+  font-size: 40;
+}
+.form button {
+  backgrùound-color: blueviolet;
+  color: firebrick;
+}
+ul :first-child {
+  background-color: green;
+  color: yellow;
+  font-size: 50px;
+}
+ul :last-child {
+  background-color: aquamarine;
+  color: blue;
+  font-size: 30px;
+}
+ul :nth-child(3) {
+  background-color: black;
+  color: rgb(185, 247, 40);
+}
